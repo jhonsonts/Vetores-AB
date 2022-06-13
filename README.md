@@ -4,15 +4,16 @@ CONSIDERE OS DOIS VETORES A E B E QUE CADA UM CONTENHA CINCO ELEMENTOS A PARTIR 
 # ALGORITMO DO EXERCÍCIO
 
 Início
-Dados os valores dos vetores 
-Veriricar quantos números são maiores que 4 no vetor A
-Verificar quantos números são maiores que 4 no vetor B
-Verificar quantos números são menores ou iguais a 5 no vetor A
-Verificar quantos números são menores ou iguais a 5 no vetor B
-Fazer cálculo entre A e B 
-Apresentar valor de C
+C = 1
+Soma = 0
+Enquanto C <=6 Faça
+Ler (Q[C])
+Soma = Soma + Q[C]
+C = C +1
+Fim enquanto
+Media = Soma/6
+Exibir (' A média é:', Media)
 
- 
     
 Fim
 
