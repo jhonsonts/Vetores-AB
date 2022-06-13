@@ -15,10 +15,14 @@ public class VetoreaAB {
 
 		for ( x=0 ;x<5; x++){ // Nosso sistema de repeticao
 		if(a[x]>4) // Estrutura de decisao para separar numeros maiores que 4 no vetor A
+			
 		System.out.printf("Os numeros do vetor a maiores que 4 sao: %d\n", a[x]);} // Interface que aparecera para o usuario 
+		
 		for ( x=0 ;x<5; x++) { // Nosso sistema de repeticao
+			
 		if ( b[x]>4) // Estrutura de decisao que ira separar os numeros maiores que 4 no vetor B
 		System.out.printf("Os numeros do vetor b maiores que 4 sao: %d\n\n", b[x]);} // Interface que aparecera para o usuario 
+		
 		for (x=0;x<5;x++) { // Nossa estrutura de repeticao
 		if (a[x]<=5) // Nossa estrura de decisao
 		System.out.printf("Os numeros do vetor a menores ou iguais a 5 sao: %d\n", a[x]); // Interface que ira aparecer para o usuario 
