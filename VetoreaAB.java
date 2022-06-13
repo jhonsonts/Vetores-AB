@@ -24,8 +24,10 @@ public class VetoreaAB {
 		System.out.printf("Os numeros do vetor b maiores que 4 sao: %d\n\n", b[x]);} // Interface que aparecera para o usuario 
 		
 		for (x=0;x<5;x++) { // Nossa estrutura de repeticao
+			
 		if (a[x]<=5) // Nossa estrura de decisao
 		System.out.printf("Os numeros do vetor a menores ou iguais a 5 sao: %d\n", a[x]); // Interface que ira aparecer para o usuario 
+			
 		if (b[x]<=5)// Estrura de decisao
 		System.out.printf("Os numeros do vetor b menores ou iguais a 5 sao: %d\n", b[x]); // Interface que ira aparecer para o usuario 
 		c=a[x]*b[x];} // Dara o valor de C, usando os vetores A e B
