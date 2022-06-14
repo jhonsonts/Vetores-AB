@@ -4,17 +4,15 @@ CONSIDERE OS DOIS VETORES A E B E QUE CADA UM CONTENHA CINCO ELEMENTOS A PARTIR 
 # ALGORITMO DO EXERCÍCIO
 
 Início
-C = 1
-Soma = 0
-Enquanto C <=6 Faça
-Ler (Q[C])
-Soma = Soma + Q[C]
-C = C +1
-Fim enquanto
-Media = Soma/6
-Exibir (' A média é:', Media)
-
-    
+Variaveis do vetor já destacadas
+Laço de repetição
+Calcular 
+Apresentar os números do vetor A que são maiores que 4
+Apresentar os números do vetor B que são maiores que 4
+Apresentar os números do vetor A menores ou iguais a 5 
+Apresentar os números do vetor B menores ou iguais a 5 
+Realizar cálculo entre vetores A e B
+Apresentar o valor do vetor C
 Fim
 
 
